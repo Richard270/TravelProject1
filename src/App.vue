@@ -26,15 +26,18 @@
             <div class="px-3 py-">
               <nav class="mb-3">
                 <b-nav vertical>
-                    <b-nav-item>
-                      <b-link :to="{ name: 'inicio' }">Opción 1</b-link>
-                    </b-nav-item>
-                    <b-nav-item>
-                      <b-link :to="{ name: 'main' }">Opción 2</b-link>
-                    </b-nav-item>
-                    <b-nav-item>
-                      <b-link :to="{ name: 'tercero' }">Opción 3</b-link>
-                    </b-nav-item>
+                  <b-nav-item>
+                    <b-link :to="{ name: 'inicio' }">Home</b-link>
+                  </b-nav-item>
+                  <b-nav-item>
+                    <b-link :to="{ name: 'inicio' }">Reservar vuelo</b-link>
+                  </b-nav-item>
+                  <b-nav-item>
+                    <b-link :to="{ name: 'main' }">Vuelos disponibles</b-link>
+                  </b-nav-item>
+                  <b-nav-item>
+                    <b-link :to="{ name: 'tercero' }">Vuelos cancelados</b-link>
+                  </b-nav-item>
                 </b-nav>
               </nav>
             </div>
