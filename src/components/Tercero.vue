@@ -18,9 +18,9 @@ export default {
           to: 'Inicio'
         },
         {
-          text: 'Main',
+          text: 'Reservar',
           href: '#',
-          to: 'Main'
+          to: 'Reservar'
 
         },
         {

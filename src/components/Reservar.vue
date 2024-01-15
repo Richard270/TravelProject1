@@ -3,7 +3,7 @@
     <div class="py-2">
       <b-breadcrumb :items="items"></b-breadcrumb>
     </div>
-    <p>Esto es main</p>
+    <p>Esto es Reservar</p>
   </div>
 </template>
 
@@ -18,9 +18,9 @@ export default {
           to: 'Inicio'
         },
         {
-          text: 'Main',
+          text: 'Reservar',
           href: '#',
-          to: 'Main'
+          to: 'Reservar'
 
         },
         {

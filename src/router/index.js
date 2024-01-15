@@ -21,9 +21,9 @@ const routes=[
                 component: ()=>import('../components/Inicio.vue')
             },
             {
-                path:'/main',
-                name: 'main',
-                component: ()=>import('../components/Main.vue')
+                path:'/reservar',
+                name: 'reservar',
+                component: ()=>import('../components/Reservar.vue')
             },
             {
                 path:'/tercero',
