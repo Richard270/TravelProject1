@@ -3,11 +3,10 @@
     <b-row>
       <div id="title" class="my-5">
         <h2>Landing page</h2>
-        <p class="py-2">Botones de Acciones</p>
-        <div class="">
-          <b-button class="mx-1" variant="primary">Reservar vuelo</b-button>
-          <b-button class="mx-1" variant="success">Vuelos disponibles</b-button>
-          <b-button class="mx-1" variant="danger">Vuelos cancelados</b-button>
+        <div class="my-3">
+          <b-button class="mx-1" variant="primary" @click="Reservar">Reservar vuelo</b-button>
+          <b-button class="mx-1" variant="success" @click="Disponible">Vuelos disponibles</b-button>
+          <b-button class="mx-1" variant="danger" @click="Cancelar">Vuelos cancelados</b-button>
         </div>
       </div>
     </b-row>
@@ -15,5 +14,18 @@
 </template>
 
 <script>
+export default {
+  methods: {
+    Reservar() {
+      this.$router.push('/reservar')
+    },
+    Disponible() {
+      this.$router.push('/disponible')
+    },
+    Cancelar() {
+      this.$router.push('/cancelar')
+    }
+  },
+}
 </script>
 </style>

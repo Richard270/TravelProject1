@@ -30,14 +30,15 @@
                     <b-link :to="{ name: 'inicio' }">Home</b-link>
                   </b-nav-item>
                   <b-nav-item>
-                    <b-link :to="{ name: 'inicio' }">Reservar vuelo</b-link>
+                    <b-link :to="{ name: 'reservar' }">Reservar vuelo</b-link>
                   </b-nav-item>
                   <b-nav-item>
-                    <b-link :to="{ name: 'main' }">Vuelos disponibles</b-link>
+                    <b-link :to="{ name: 'disponible' }">Vuelos disponibles</b-link>
                   </b-nav-item>
                   <b-nav-item>
-                    <b-link :to="{ name: 'tercero' }">Vuelos cancelados</b-link>
+                    <b-link :to="{ name: 'cancelar' }">Vuelos cancelados</b-link>
                   </b-nav-item>
+                  
                 </b-nav>
               </nav>
             </div>

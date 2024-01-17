@@ -21,15 +21,35 @@ const routes=[
                 component: ()=>import('../components/Inicio.vue')
             },
             {
-                path:'/main',
-                name: 'main',
-                component: ()=>import('../components/Main.vue')
+                path:'/reservar',
+                name: 'reservar',
+                component: ()=>import('../components/Reservar.vue')
             },
             {
-                path:'/tercero',
-                name: 'tercero',
-                component: ()=>import('../components/Tercero.vue')
+                path:'/disponible',
+                name: 'disponible',
+                component: ()=>import('../components/Disponible.vue')
             },
+            {
+                path: '/cancelar',
+                name: 'cancelar',
+                component: ()=>import('../components/Cancelar.vue')
+            },
+            {
+                path: '/asientosr',
+                name: 'asientosr',
+                component: ()=>import('../components/AsientosR.vue')
+            },
+            {
+                path: '/lineasv',
+                name: 'lineasv',
+                component: ()=>import('../components/LineasV.vue')
+            },
+            {
+                path: '/proximov',
+                name: 'proximov',
+                component: ()=>import('../components/ProximoV.vue')
+            }
         ]
     }
 ]
