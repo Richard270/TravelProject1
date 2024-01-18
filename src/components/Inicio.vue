@@ -2,7 +2,7 @@
   <b-container fluid>
     <b-row>
       <div id="title" class="my-5">
-        <h2>Landing page</h2>
+        <h2 class="my-3">Landing page</h2>
         <div class="my-3">
           <b-button class="mx-1" variant="primary" @click="Reservar">Reservar vuelo</b-button>
           <b-button class="mx-1" variant="success" @click="Disponible">Vuelos disponibles</b-button>

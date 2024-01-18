@@ -19,7 +19,7 @@
     </b-row>
     <!-- Comienza el SideBar -->
     <b-row>
-      <b-col>
+      <b-col sm="3">
         <div>
           <b-sidebar id="sidebar-1" shadow visible z-index="0" no-close-on-backdrop no-close-on-esc
             no-close-on-route-change>
