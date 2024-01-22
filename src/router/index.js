@@ -5,21 +5,18 @@ Vue.use(VueRouter);
 
 const routes=[
     {
-        path:'/',
-        redirect: '/inicio'
-    },{
+        path:'*',
+        component: ()=> import("../views/ErrorPage/Error404.vue")
+    },    
+    {
         path: '/',
-        component:{
-            render(c){
-                return c('router-view');
-            },
-        },
+        component:()=> import("../components/Menu.vue"),
         children: [
             {
                 path:'/inicio',
                 name: 'inicio',
                 component: ()=>import('../components/Inicio.vue')
-            },
+            },  
             {
                 path:'/reservar',
                 name: 'reservar',
@@ -49,7 +46,12 @@ const routes=[
                 path: '/proximov',
                 name: 'proximov',
                 component: ()=>import('../components/ProximoV.vue')
-            }
+            },    
+            {
+                path: '/formulario',
+                name:'formulario',
+                component: () => import('../components/Formulario.vue')
+            },
         ]
     }
 ]
